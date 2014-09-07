@@ -85,7 +85,7 @@ JAVASCRIPT
 
 ```javascript
 $('.galleryAdvanced').googleGallery({
-    childrenSelector: 'li',
+    childrenSelector: 'div',
     automaticallyGetHTML: false,
     onItemClick: function(item){
         var plugin = this;
