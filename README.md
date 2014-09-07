@@ -58,6 +58,7 @@ JAVASCRIPT
 $('.gallery').googleGallery({
     childrenSelector: 'li'    
 });
+```
 
 ## The above will automatically fill the expanded section with the html from the selectors provided in the *data-get-content-from* html attribute.
 
@@ -92,7 +93,7 @@ $('.galleryAdvanced').googleGallery({
         innerContainer.html('This is the new html for:' + item.attr('title') + '. This items index is: ' + plugin.self.current);
     }
 });
-
+```
 
 ## This allows you to write your own html fill method for the preview container.
 
