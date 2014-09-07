@@ -60,7 +60,7 @@ $('.gallery').googleGallery({
 });
 ```
 
-# The above will automatically fill the expanded section with the html from the selectors provided in the *data-get-content-from* html attribute.
+###### The above will automatically fill the expanded section with the html from the selectors provided in the *data-get-content-from* html attribute.
 
 
 **Example - Advanced**
@@ -95,7 +95,7 @@ $('.galleryAdvanced').googleGallery({
 });
 ```
 
-# This allows you to write your own html fill method for the preview container.
+###### This allows you to write your own html fill method for the preview container.
 
 
 
