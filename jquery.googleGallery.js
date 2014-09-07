@@ -60,7 +60,8 @@ $special = $event.special.debouncedresize = {
 		speed: 350,
 		easing: 'ease',
 		automaticallyGetHTML: true,
-		childrenSelector: 'div'
+		childrenSelector: 'div',
+		onItemClick: null
 	};
 
 	// The actual plugin constructor
